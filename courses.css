@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+body {
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+  color: #333;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.courses-container {
+  width: 90%;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.courses-container h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #4a4a4a;
+}
+
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+
+.course-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.course-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.course-info {
+  padding: 20px;
+}
+
+.course-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #4a4a4a;
+}
+
+.course-info p {
+  font-size: 1rem;
+  color: #7d7d7d;
+  line-height: 1.5;
+}
+
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  background-color: #7d7dbe;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+  font-family: Arial, sans-serif;
+}
+
+.back-button:hover {
+  background-color: #51518a;
+  transform: translateY(-2px);
+}
+
+.back-button:active {
+  background-color: #7d7dbe;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.courses-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.course-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.course-card img {
+  width: 100%;
+  height: auto;
+}
+
+.course-info {
+  padding: 15px;
+  text-align: left;
+}

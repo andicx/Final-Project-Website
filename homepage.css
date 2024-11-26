@@ -1,0 +1,105 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+}
+
+
+.greeting {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px; 
+  text-align: center;
+}
+
+
+.dashboard-container {
+  background-color: #fff;
+  width: 350px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+nav ul li {
+  margin: 12px 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #7d7deb;
+  font-size: 1.1rem;
+  font-weight: bold;
+  display: block;
+  padding: 8px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #7d7deb;
+  color: white;
+}
+
+
+.logout-btn {
+  display: inline-block;
+  background-color: #6C63FF;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.logout-btn:focus,
+.logout-btn:hover {
+  outline: none;
+  text-decoration: none;
+}
+
+
+button {
+  background-color: transparent;
+  border: none;
+  color: #7d7deb;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+button:hover {
+  text-decoration: underline;
+  color: #07001f;
+}

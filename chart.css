@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+  color: #333;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  background-color: #7d7dbe;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+  font-family: Arial, sans-serif;
+}
+
+.back-button:hover {
+  background-color: #51518a;
+  transform: translateY(-2px);
+}
+
+.back-button:active {
+  background-color: #7d7dbe;
+}
+
+.gantt-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.gantt-link {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gantt-link:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.gantt-link h2 {
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.gantt-link a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+  background-color: linear-gradient(to right, #e2e2e2, #c9d6ff);
+  padding: 12px 20px;
+  border-radius: 8px;
+  display: inline-block;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.gantt-link a:hover {
+  background-color: lightslategray;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
